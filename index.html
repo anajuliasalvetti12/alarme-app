@@ -1,147 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>alarme app</title>
-
-     <!-- Font Awesome Icons -->
-     <link
-     rel="stylesheet"
-     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-   />
-   <!-- Google Fonts -->
-   <link
-     href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:wght@500&display=swap"
-     rel="stylesheet"
-   />
-   <!-- Stylesheet -->
-   <link rel="stylesheet" href="style.css" />
-
-</head>
-<body>
-        <!-- O conteúdo visível da página começa aqui -->
-        <div class="wrapper">
-              <!-- Contêiner principal -->
-              <div class="timer-display">00:00:00 </div>
-              
-              <div class="container">
-                 <!-- Contêiner para elementos relacionados à configuração do alarme -->
-
-                 <div class="inputs"> 
-                       <!-- Contêiner para campos de entrada de hora e minuto -->
-                
-                        <!-- Campo de entrada para as horas do alarme -->
-                        <div class="inputs"> 
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm App</title>
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
 
 
+  </head>
+  <body>
+    <!-- O conteúdo visível da página começa aqui -->
+    <div class="wrapper">
+        <!-- Contêiner principal -->
+        <div class="timer-display">00:00:00</div> <!-- Mostra o tempo do temporizador -->
 
-                    <!-- Campo de entrada para os minutos do alarme -->
-                    <input
-                type="number"
-                id="minuteinput"
-                placeholder="00"
-                min="0"
-                max="59"
-/> <!-- Campo de entrada para os minutos do alarme -->
-</div>
+        <div class="container">
+            <!-- Contêiner para elementos relacionados à configuração do alarme -->
+            <div class="inputs">
+                <!-- Contêiner para campos de entrada de hora e minuto -->
+                <input
+                    type="number"
+                    id="hourInput"
+                    placeholder="00"
+                    min="0"
+                    max="23"
+                /> <!-- Campo de entrada para as horas do alarme -->
+                <input
+                    type="number"
+                    id="minuteInput"
+                    placeholder="00"
+                    min="0"
+                    max="59"
+                /> <!-- Campo de entrada para os minutos do alarme -->
+            </div>
 
-<button id="set">Add Alarm</button> <!-- Botão para adicionar o alarme -->
+            <button id="set">Add Alarm</button> <!-- Botão para adicionar o alarme -->
 
-<div class="activeAlarms"></div> <!-- Contêiner para listar os alarmes ativos -->
-</div>
-</div>
-<!-- Inclui o script JavaScript -->
-<script src="script.js"></script>
+            <div class="activeAlarms"></div> <!-- Contêiner para listar os alarmes ativos -->
+        </div>
+    </div>
+    <!-- Inclui o script JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
-</head>
-<body>
-
-
-    <div class="wrapper">
-
-
-        <button id="set">Add Alarm</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>alarme app</title>
-
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-  />
-
-  <link
-  href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:wght@500&display=swap"
-  rel="stylesheet"
-
-  <link rel="stylesheet" href="style.css" />
-
-  <link rel="stylesheet" href="style.css" />
-
-
-  <div class="timer-display">00:00:00 </div>
-              
-  <div class="wrapper">
-
-    <div class="container">
-
-
-        <div class="inputs"> 
-
-            <input
-            type="number"
-id="minuteinput"
-placeholder="00"
-min="0"
-max="59"
-
-<div class="activeAlarms">
-
-
-</div> 
-</div>
-<script src="script.js"></script>
-
-</head>
-<body>
-
-
 
 
 
